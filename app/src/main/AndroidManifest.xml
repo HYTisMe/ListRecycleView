@@ -12,6 +12,9 @@
         android:theme="@style/Theme.ListRecycleView"
         tools:targetApi="31">
         <activity
+            android:name=".RecycleDetails"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -23,11 +26,11 @@
         <activity
             android:name=".RecycleViewActivity"
             android:exported="false"
-            android:launchMode="singleTop"/>
+            android:launchMode="singleTop" />
         <activity
             android:name=".ListViewActivity"
             android:exported="false"
-            android:launchMode="singleTop"/>
+            android:launchMode="singleTop" />
     </application>
 
 </manifest>
